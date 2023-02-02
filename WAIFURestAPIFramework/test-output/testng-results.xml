@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="40" passed="40" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-01T12:15:32 EST" name="WAIFURestAPIFrameworksuite" finished-at="2023-02-01T12:16:09 EST" duration-ms="37244">
+    <groups>
+    </groups>
+    <test started-at="2023-02-01T12:15:32 EST" name="WAIFURestAPIFramework" finished-at="2023-02-01T12:16:09 EST" duration-ms="37244">
+      <class name="com.qa.waifuAPI.testcases.PUTCreateUser">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.waifuAPI.testcases.PUTCreateUser@f0da945]" started-at="2023-02-01T12:15:59 EST" name="setup" finished-at="2023-02-01T12:15:59 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="putCreateUser()[pri:0, instance:com.qa.waifuAPI.testcases.PUTCreateUser@f0da945]" started-at="2023-02-01T12:15:59 EST" name="putCreateUser" finished-at="2023-02-01T12:16:04 EST" duration-ms="5478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putCreateUser -->
+        <test-method signature="statusCode()[pri:1, instance:com.qa.waifuAPI.testcases.PUTCreateUser@f0da945]" started-at="2023-02-01T12:16:04 EST" name="statusCode" finished-at="2023-02-01T12:16:04 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusCode -->
+        <test-method signature="checkResponseBody()[pri:2, instance:com.qa.waifuAPI.testcases.PUTCreateUser@f0da945]" started-at="2023-02-01T12:16:04 EST" name="checkResponseBody" finished-at="2023-02-01T12:16:04 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:3, instance:com.qa.waifuAPI.testcases.PUTCreateUser@f0da945]" started-at="2023-02-01T12:16:04 EST" name="checkResponseTime" finished-at="2023-02-01T12:16:04 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="statusLine()[pri:4, instance:com.qa.waifuAPI.testcases.PUTCreateUser@f0da945]" started-at="2023-02-01T12:16:04 EST" name="statusLine" finished-at="2023-02-01T12:16:04 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusLine -->
+        <test-method signature="contentType()[pri:5, instance:com.qa.waifuAPI.testcases.PUTCreateUser@f0da945]" started-at="2023-02-01T12:16:04 EST" name="contentType" finished-at="2023-02-01T12:16:04 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentType -->
+        <test-method signature="checkserverType()[pri:6, instance:com.qa.waifuAPI.testcases.PUTCreateUser@f0da945]" started-at="2023-02-01T12:16:04 EST" name="checkserverType" finished-at="2023-02-01T12:16:04 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+      </class> <!-- com.qa.waifuAPI.testcases.PUTCreateUser -->
+      <class name="com.qa.waifuAPI.testcases.GETExistUser">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.waifuAPI.testcases.GETExistUser@6392827e]" started-at="2023-02-01T12:15:32 EST" name="setup" finished-at="2023-02-01T12:15:32 EST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getExistUser()[pri:0, instance:com.qa.waifuAPI.testcases.GETExistUser@6392827e]" started-at="2023-02-01T12:15:32 EST" name="getExistUser" finished-at="2023-02-01T12:15:39 EST" duration-ms="6762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExistUser -->
+        <test-method signature="statusCode()[pri:1, instance:com.qa.waifuAPI.testcases.GETExistUser@6392827e]" started-at="2023-02-01T12:15:39 EST" name="statusCode" finished-at="2023-02-01T12:15:39 EST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusCode -->
+        <test-method signature="checkResponseBody()[pri:2, instance:com.qa.waifuAPI.testcases.GETExistUser@6392827e]" started-at="2023-02-01T12:15:39 EST" name="checkResponseBody" finished-at="2023-02-01T12:15:39 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:3, instance:com.qa.waifuAPI.testcases.GETExistUser@6392827e]" started-at="2023-02-01T12:15:39 EST" name="checkResponseTime" finished-at="2023-02-01T12:15:39 EST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="statusLine()[pri:4, instance:com.qa.waifuAPI.testcases.GETExistUser@6392827e]" started-at="2023-02-01T12:15:39 EST" name="statusLine" finished-at="2023-02-01T12:15:39 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusLine -->
+        <test-method signature="contentType()[pri:5, instance:com.qa.waifuAPI.testcases.GETExistUser@6392827e]" started-at="2023-02-01T12:15:39 EST" name="contentType" finished-at="2023-02-01T12:15:39 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentType -->
+        <test-method signature="checkserverType()[pri:6, instance:com.qa.waifuAPI.testcases.GETExistUser@6392827e]" started-at="2023-02-01T12:15:39 EST" name="checkserverType" finished-at="2023-02-01T12:15:39 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+      </class> <!-- com.qa.waifuAPI.testcases.GETExistUser -->
+      <class name="com.qa.waifuAPI.testcases.POSTSendMessage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.waifuAPI.testcases.POSTSendMessage@194bcebf]" started-at="2023-02-01T12:15:51 EST" name="setup" finished-at="2023-02-01T12:15:51 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="postNewMessage()[pri:0, instance:com.qa.waifuAPI.testcases.POSTSendMessage@194bcebf]" started-at="2023-02-01T12:15:51 EST" name="postNewMessage" finished-at="2023-02-01T12:15:59 EST" duration-ms="7872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postNewMessage -->
+        <test-method signature="statusCode()[pri:1, instance:com.qa.waifuAPI.testcases.POSTSendMessage@194bcebf]" started-at="2023-02-01T12:15:59 EST" name="statusCode" finished-at="2023-02-01T12:15:59 EST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusCode -->
+        <test-method signature="checkResponseBody()[pri:2, instance:com.qa.waifuAPI.testcases.POSTSendMessage@194bcebf]" started-at="2023-02-01T12:15:59 EST" name="checkResponseBody" finished-at="2023-02-01T12:15:59 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:3, instance:com.qa.waifuAPI.testcases.POSTSendMessage@194bcebf]" started-at="2023-02-01T12:15:59 EST" name="checkResponseTime" finished-at="2023-02-01T12:15:59 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="statusLine()[pri:4, instance:com.qa.waifuAPI.testcases.POSTSendMessage@194bcebf]" started-at="2023-02-01T12:15:59 EST" name="statusLine" finished-at="2023-02-01T12:15:59 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusLine -->
+        <test-method signature="contentType()[pri:5, instance:com.qa.waifuAPI.testcases.POSTSendMessage@194bcebf]" started-at="2023-02-01T12:15:59 EST" name="contentType" finished-at="2023-02-01T12:15:59 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentType -->
+        <test-method signature="checkserverType()[pri:6, instance:com.qa.waifuAPI.testcases.POSTSendMessage@194bcebf]" started-at="2023-02-01T12:15:59 EST" name="checkserverType" finished-at="2023-02-01T12:15:59 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+      </class> <!-- com.qa.waifuAPI.testcases.POSTSendMessage -->
+      <class name="com.qa.waifuAPI.testcases.GETuserMetaData">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.waifuAPI.testcases.GETuserMetaData@7c711375]" started-at="2023-02-01T12:15:39 EST" name="setup" finished-at="2023-02-01T12:15:39 EST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getExistUser()[pri:0, instance:com.qa.waifuAPI.testcases.GETuserMetaData@7c711375]" started-at="2023-02-01T12:15:39 EST" name="getExistUser" finished-at="2023-02-01T12:15:43 EST" duration-ms="3618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExistUser -->
+        <test-method signature="statusCode()[pri:1, instance:com.qa.waifuAPI.testcases.GETuserMetaData@7c711375]" started-at="2023-02-01T12:15:43 EST" name="statusCode" finished-at="2023-02-01T12:15:43 EST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusCode -->
+        <test-method signature="checkResponseBody()[pri:2, instance:com.qa.waifuAPI.testcases.GETuserMetaData@7c711375]" started-at="2023-02-01T12:15:43 EST" name="checkResponseBody" finished-at="2023-02-01T12:15:43 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:3, instance:com.qa.waifuAPI.testcases.GETuserMetaData@7c711375]" started-at="2023-02-01T12:15:43 EST" name="checkResponseTime" finished-at="2023-02-01T12:15:43 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="statusLine()[pri:4, instance:com.qa.waifuAPI.testcases.GETuserMetaData@7c711375]" started-at="2023-02-01T12:15:43 EST" name="statusLine" finished-at="2023-02-01T12:15:43 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusLine -->
+        <test-method signature="contentType()[pri:5, instance:com.qa.waifuAPI.testcases.GETuserMetaData@7c711375]" started-at="2023-02-01T12:15:43 EST" name="contentType" finished-at="2023-02-01T12:15:43 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentType -->
+        <test-method signature="checkserverType()[pri:6, instance:com.qa.waifuAPI.testcases.GETuserMetaData@7c711375]" started-at="2023-02-01T12:15:43 EST" name="checkserverType" finished-at="2023-02-01T12:15:43 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+      </class> <!-- com.qa.waifuAPI.testcases.GETuserMetaData -->
+      <class name="com.qa.waifuAPI.testcases.GETUserCount">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.waifuAPI.testcases.GETUserCount@57cf54e1]" started-at="2023-02-01T12:15:43 EST" name="setup" finished-at="2023-02-01T12:15:43 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getUserCount()[pri:0, instance:com.qa.waifuAPI.testcases.GETUserCount@57cf54e1]" started-at="2023-02-01T12:15:43 EST" name="getUserCount" finished-at="2023-02-01T12:15:47 EST" duration-ms="3858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserCount -->
+        <test-method signature="statusCode()[pri:1, instance:com.qa.waifuAPI.testcases.GETUserCount@57cf54e1]" started-at="2023-02-01T12:15:47 EST" name="statusCode" finished-at="2023-02-01T12:15:47 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusCode -->
+        <test-method signature="checkResponseBody()[pri:2, instance:com.qa.waifuAPI.testcases.GETUserCount@57cf54e1]" started-at="2023-02-01T12:15:47 EST" name="checkResponseBody" finished-at="2023-02-01T12:15:47 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:3, instance:com.qa.waifuAPI.testcases.GETUserCount@57cf54e1]" started-at="2023-02-01T12:15:47 EST" name="checkResponseTime" finished-at="2023-02-01T12:15:47 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="statusLine()[pri:4, instance:com.qa.waifuAPI.testcases.GETUserCount@57cf54e1]" started-at="2023-02-01T12:15:47 EST" name="statusLine" finished-at="2023-02-01T12:15:47 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusLine -->
+        <test-method signature="contentType()[pri:5, instance:com.qa.waifuAPI.testcases.GETUserCount@57cf54e1]" started-at="2023-02-01T12:15:47 EST" name="contentType" finished-at="2023-02-01T12:15:47 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentType -->
+        <test-method signature="checkserverType()[pri:6, instance:com.qa.waifuAPI.testcases.GETUserCount@57cf54e1]" started-at="2023-02-01T12:15:47 EST" name="checkserverType" finished-at="2023-02-01T12:15:47 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+      </class> <!-- com.qa.waifuAPI.testcases.GETUserCount -->
+      <class name="com.qa.waifuAPI.testcases.GETUserDialog">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.waifuAPI.testcases.GETUserDialog@37d4349f]" started-at="2023-02-01T12:15:47 EST" name="setup" finished-at="2023-02-01T12:15:47 EST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getUserDialogs()[pri:0, instance:com.qa.waifuAPI.testcases.GETUserDialog@37d4349f]" started-at="2023-02-01T12:15:47 EST" name="getUserDialogs" finished-at="2023-02-01T12:15:51 EST" duration-ms="3704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserDialogs -->
+        <test-method signature="statusCode()[pri:1, instance:com.qa.waifuAPI.testcases.GETUserDialog@37d4349f]" started-at="2023-02-01T12:15:51 EST" name="statusCode" finished-at="2023-02-01T12:15:51 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusCode -->
+        <test-method signature="checkResponseBody()[pri:2, instance:com.qa.waifuAPI.testcases.GETUserDialog@37d4349f]" started-at="2023-02-01T12:15:51 EST" name="checkResponseBody" finished-at="2023-02-01T12:15:51 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponseTime()[pri:3, instance:com.qa.waifuAPI.testcases.GETUserDialog@37d4349f]" started-at="2023-02-01T12:15:51 EST" name="checkResponseTime" finished-at="2023-02-01T12:15:51 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="statusLine()[pri:4, instance:com.qa.waifuAPI.testcases.GETUserDialog@37d4349f]" started-at="2023-02-01T12:15:51 EST" name="statusLine" finished-at="2023-02-01T12:15:51 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusLine -->
+        <test-method signature="contentType()[pri:5, instance:com.qa.waifuAPI.testcases.GETUserDialog@37d4349f]" started-at="2023-02-01T12:15:51 EST" name="contentType" finished-at="2023-02-01T12:15:51 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentType -->
+        <test-method signature="checkserverType()[pri:6, instance:com.qa.waifuAPI.testcases.GETUserDialog@37d4349f]" started-at="2023-02-01T12:15:51 EST" name="checkserverType" finished-at="2023-02-01T12:15:51 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+      </class> <!-- com.qa.waifuAPI.testcases.GETUserDialog -->
+      <class name="com.qa.waifuAPI.testcases.DELETEUser">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.waifuAPI.testcases.DELETEUser@4803b726]" started-at="2023-02-01T12:16:04 EST" name="setup" finished-at="2023-02-01T12:16:04 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="deleteUser()[pri:0, instance:com.qa.waifuAPI.testcases.DELETEUser@4803b726]" started-at="2023-02-01T12:16:04 EST" name="deleteUser" finished-at="2023-02-01T12:16:09 EST" duration-ms="5065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="statusCode()[pri:1, instance:com.qa.waifuAPI.testcases.DELETEUser@4803b726]" started-at="2023-02-01T12:16:09 EST" name="statusCode" finished-at="2023-02-01T12:16:09 EST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusCode -->
+        <test-method signature="checkResponseTime()[pri:2, instance:com.qa.waifuAPI.testcases.DELETEUser@4803b726]" started-at="2023-02-01T12:16:09 EST" name="checkResponseTime" finished-at="2023-02-01T12:16:09 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method signature="statusLine()[pri:3, instance:com.qa.waifuAPI.testcases.DELETEUser@4803b726]" started-at="2023-02-01T12:16:09 EST" name="statusLine" finished-at="2023-02-01T12:16:09 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusLine -->
+        <test-method signature="checkserverType()[pri:4, instance:com.qa.waifuAPI.testcases.DELETEUser@4803b726]" started-at="2023-02-01T12:16:09 EST" name="checkserverType" finished-at="2023-02-01T12:16:09 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+      </class> <!-- com.qa.waifuAPI.testcases.DELETEUser -->
+    </test> <!-- WAIFURestAPIFramework -->
+  </suite> <!-- WAIFURestAPIFrameworksuite -->
+</testng-results>

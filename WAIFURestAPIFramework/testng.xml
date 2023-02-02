@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="WAIFURestAPIFrameworksuite">
+
+
+
+<listeners>
+    <listener class-name ="com.qa.waifuAPI.TestUtils.Listeners" />
+</listeners>
+
+<test thread-count="5" name="WAIFURestAPIFramework">
+   <classes>
+<class name="com.qa.waifuAPI.testcases.GETExistUser"></class>
+<class name="com.qa.waifuAPI.testcases.GETuserMetaData"></class>
+<class name="com.qa.waifuAPI.testcases.GETUserCount"></class>
+<class name="com.qa.waifuAPI.testcases.GETUserDialog"></class>
+<class name="com.qa.waifuAPI.testcases.POSTSendMessage"></class>
+<class name="com.qa.waifuAPI.testcases.PUTCreateUser"></class>
+<class name="com.qa.waifuAPI.testcases.DELETEUser"></class>
+</classes>
+
+</test>
+</suite>
